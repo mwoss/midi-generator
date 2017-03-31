@@ -1,13 +1,15 @@
 from miditime.miditime import MIDITime
 
 
-class Generator:
+class Generator(object):
 
-    def __init__(self):
-        self.bmp = 128
+    def __init__(self, bpm):
+        self.bmp = bpm
 
-    def generate(self,file):
-        midi = MIDITime(self.bmp,file+'.mid',6,3,1)
+
+
+    def generate(self,file,path):
+        midi = MIDITime(self.bmp,path+file+'.mid',6,3,1)
         notes = [
             [0, 60, 127, 6],
             [0.5, 50, 100, 1],
@@ -28,8 +30,6 @@ class Generator:
             [7.5, 56, 100, 8.1],
             [8.7, 57, 100, 9.3],
             [9.6, 56, 100, 10.2]
-
-
 
         ]
         midi.add_track(notes)

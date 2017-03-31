@@ -1,1 +1,1 @@
-from XDD.main import main
+from XDD.main import main, parser
