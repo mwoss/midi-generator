@@ -1,6 +1,6 @@
 import random
 
-chordsDict = {
+chords_dict = {
     'C': [[1, 24, 100, 3],
           [1, 28, 100, 3],
           [1, 31, 100, 3]],
@@ -122,8 +122,8 @@ chordsDict = {
 }
 
 
-def randomValueDict():
-    rand = random.choice(list(chordsDict.items()))
+def random_value_dict():
+    rand = random.choice(list(chords_dict.items()))
     return rand
 
 
@@ -138,8 +138,8 @@ def randomValueDict():
 #
 #     return randChord
 
-def progresion(chord1, chord2):
+def progression(chord1, chord2):
     while True:
-        progChord = randomValueDict()
-        if progChord[0].startswith((chord1, chord2)):
-            return progChord
+        prog_chord = random_value_dict()
+        if prog_chord[0].startswith((chord1, chord2)):
+            return prog_chord

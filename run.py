@@ -1,3 +1,3 @@
-from XDD import main
+from musicgenerator import main
 
 main()
