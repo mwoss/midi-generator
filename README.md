@@ -1,11 +1,12 @@
-#Music generator (Python)
+# Music generator (Python)
 Solution for Python course at AGH UST.
 
-##Example of usage
-```
+## Example of usage
+```shell
 >py run.py music C:\Documents\ --bmp 128 --length 20 --octave 3
 >py run.py music C:\Documents\ --bmp 128 --length 20 --octave 3 --math sin
 or just run it with above arguments in pycharm or sth like that
+```
 ```
 1st arg -> file name
 2nd arg -> directory of storage output file
@@ -14,10 +15,10 @@ or just run it with above arguments in pycharm or sth like that
 --octave [octave] -> notes shift, range (1-7), required
 --math [mathf] -> generate music using trigonometrical functions instead of using chord progression samples,
                   choices=(sin,cos),required = False
-##Requirements
- -Python 3.X
- -Miditime library installed (for example: https://pyi.python.org/pypi/miditime)
-
+## Requirements
+ - Python 3.X
+ - Miditime library installed (for example: https://pyi.python.org/pypi/miditime)
+```
 
 ```Programowanie w jezyku Python 2016/2017 zadanie 1
 Uporczywe narkotyczne melodie potrafią czasem na długo przylgnąć do umysłu.
