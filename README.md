@@ -3,8 +3,8 @@ Solution for Python course at AGH UST.
 
 ## Example of usage
 ```shell
->py run.py music C:\Documents\ --bmp 128 --length 20 --octave 3
->py run.py music C:\Documents\ --bmp 128 --length 20 --octave 3 --math sin
+>py run.py music C:\Users\user1\ --bmp 128 --length 20 --octave 3
+>py run.py music C:\Users\user1\ --bmp 128 --length 20 --octave 3 --math sin
 or just run it with above arguments in pycharm or sth like that
 ```
 ```
