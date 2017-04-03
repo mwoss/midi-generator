@@ -15,11 +15,12 @@ or just run it with above arguments in pycharm or sth like that
 --octave [octave] -> notes shift, range (1-7), required
 --math [mathf] -> generate music using trigonometrical functions instead of using chord progression samples,
                   choices=(sin,cos),required = False
+```
 ## Requirements
  - Python 3.X
- - Miditime library installed (for example: https://pyi.python.org/pypi/miditime)
-```
+ - Miditime library installed (for example: https://pypi.python.org/pypi/miditime)
 
+## Task
 ```Programowanie w jezyku Python 2016/2017 zadanie 1
 Uporczywe narkotyczne melodie potrafią czasem na długo przylgnąć do umysłu.
 Napisz program, który generuje narkotyczne melodie. Program powinien generować różne melodie w zależności od tego, jakie użytkownik poda opcje. Użytkownik będzie tak długo modyfikował opcje programu aż wygenerowana melodia utkwi mu na stałe w głowie.
