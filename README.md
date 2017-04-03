@@ -18,7 +18,7 @@ or just run it with above arguments in pycharm or sth like that
 ```
 ## Requirements
  - Python 3.X
- - Miditime library installed (for example: https://pypi.python.org/pypi/miditime)
+ - Miditime library installed (for example: https://pypi.python.org/pypi/miditime or just use terminal and input pip install miditime)
 
 ## Task
 ```Programowanie w jezyku Python 2016/2017 zadanie 1
