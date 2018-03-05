@@ -1,5 +1,6 @@
-# Music generator (Python)
+# MIDI generator
 Solution for Python course at AGH UST.
+Simple midi piano generator using MIDI library.
 
 ## Example of usage
 ```shell
