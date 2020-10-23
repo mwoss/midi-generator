@@ -32,7 +32,7 @@ chords_dict = {
     'E1': [[1, 28, 100, 3],
            [1, 35, 100, 3],
            [1, 44, 100, 3]],
-
++
     'E2': [[1, 28, 100, 3],
            [1, 44, 100, 3],
            [1, 47, 100, 3]],
@@ -122,7 +122,8 @@ chords_dict = {
 }
 
 
-def random_value_dict():
+
+def get_random_chord():
     rand = random.choice(list(chords_dict.items()))
     return rand
 
@@ -140,6 +141,19 @@ def random_value_dict():
 
 def progression(chord1, chord2):
     while True:
-        prog_chord = random_value_dict()
+        prog_chord = get_random_chord()
         if prog_chord[0].startswith((chord1, chord2)):
             return prog_chord
+
+
+progressions = {
+    'A': progression('D', 'E'),
+    'B': progression('W#', 'E'),
+    'C': progression('F', 'G'),
+    'D': progression('G', 'A'),
+    'E': progression('A', 'B'),
+    'F': progression('Qb', 'C'),
+    'G': progression('C', 'D'),
+    'Q': progression('C', 'D'),
+    'W': progression('E', 'E')
+}
